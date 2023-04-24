@@ -1,0 +1,15 @@
+<apex:page>
+    <apex:includeLightning />
+    <div id="lightning" />
+    
+    <h1>Aura Wrapper</h1>
+    <script>
+        $Lightning.use('c:LwsApp', function () {
+            $Lightning.createComponent(
+                'c:LwsAura',
+                {},
+                "lightning",
+            );
+        });
+    </script>
+</apex:page>

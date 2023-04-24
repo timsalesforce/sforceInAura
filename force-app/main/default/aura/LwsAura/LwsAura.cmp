@@ -1,0 +1,6 @@
+<aura:component>
+    <lightning:navigation aura:id="navService"/>
+    I am the Aura Compoennt
+    <button onclick="{!c.onClick}">click me</button>
+    <button onclick="{!c.navToRecord}">nav to record</button>
+</aura:component>
